@@ -12,6 +12,8 @@
 
 (function() {
     'use strict';
-
+    // 获得网站的url
+    let url = window.location.href
+    console.log(url)
     // Your code here...
 })();
