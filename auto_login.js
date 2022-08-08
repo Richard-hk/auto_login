@@ -6,7 +6,7 @@
 // @author       Richard-hk
 // @license      MIT
 // @match        https://kiwivm.64clouds.com/main.php
-// @include      *://*jd.com/*
+// @match        *://*.jd.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        none
 // ==/UserScript==
