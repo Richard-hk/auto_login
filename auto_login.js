@@ -5,7 +5,8 @@
 // @description  auto login all the website
 // @author       Richard-hk
 // @license      MIT
-// @match        https://www.tampermonkey.net/scripts.php
+// @match        https://kiwivm.64clouds.com/main.php
+// @include      *://*jd.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        none
 // ==/UserScript==
@@ -15,5 +16,6 @@
     // 获得网站的url
     let url = window.location.href
     console.log(url)
+    alert(url)
     // Your code here...
 })();
